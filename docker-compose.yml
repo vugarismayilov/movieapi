@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_DB: movie_db
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: vuqar123
+      POSTGRES_PASSWORD: 
 
     ports:
       - "5432:5432"
@@ -28,4 +28,4 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/movie_db
       SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: vuqar123
+      SPRING_DATASOURCE_PASSWORD: 
